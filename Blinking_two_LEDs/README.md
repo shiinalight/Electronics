@@ -55,7 +55,7 @@ void loop() {
 ## 🖼️ Circuit Overview
 
 ### 🔧 Breadboard Setup
-![Circuit](Curcuit.heic)
+![Circuit](Curcuit.jpg)
 
 ### 📘 Schematic Diagram
 ![Schematics](Schematics.JPG)
