@@ -48,6 +48,16 @@ void loop() {
 
 ---
 
+## 🖼️ Circuit Overview
+
+### 🔧 Breadboard Setup
+![Circuit](Circuit.JPG)
+
+### 📘 Schematic Diagram
+![Schematics](Schematics.JPG)
+
+---
+
 ## 🚀 How to Run
 
 1. Connect your Arduino UNO via USB.  
@@ -56,14 +66,6 @@ void loop() {
 4. Select the correct **Port** (e.g., `/dev/cu.usbserial-xxx`).  
 5. Click **Upload** (▶️).  
 6. Watch the LED blink every second! ✨
-
----
-
-## 📸 Setup Example
-
-| Breadboard Setup | Output |
-|------------------|---------|
-| ![Breadboard setup](breadboard_photo.jpg) | LED blinks every second |
 
 ---
 
