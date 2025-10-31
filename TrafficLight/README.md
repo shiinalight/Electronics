@@ -77,6 +77,10 @@ Then the sequence repeats infinitely.
 ### 📘 Schematic Diagram  
 ![Schematics](Schematics.png)
 
+### 📄 PDF Schematic  
+[View Traffic Light Circuit PDF](Schematic2.pdf)
+
+
 ### 🔧 Breadboard Setup  
 | View | Description |
 |------|--------------|
