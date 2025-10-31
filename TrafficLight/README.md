@@ -75,7 +75,7 @@ Then the sequence repeats infinitely.
 ## 🖼️ Circuit Overview
 
 ### 📘 Schematic Diagram  
-![Schematics](Schematics.JPG)
+![Schematics](Schematics.png)
 
 ### 🔧 Breadboard Setup  
 | View | Description |
