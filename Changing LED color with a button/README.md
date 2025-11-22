@@ -107,7 +107,7 @@ void loop() {
 
 ### 🔧 Breadboard Setup
 ![Circuit](IMG_7502.JPG)
-![Circuit](IMG_7503.JPEG)
+![Circuit](IMG_7503.jpg)
 
 ### 📘 Schematic Diagram
 ![Schematics](button_push_color_change_.jpg)
