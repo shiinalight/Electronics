@@ -74,12 +74,12 @@ void loop() {
 
 ### 🔧 Breadboard Setup
 
-![Circuit](Circuit.JPG)
+![Circuit](Circuit.jpg)
 
 ### 📘 Wiring Diagram
 
 *(Insert schematic or simulation)*\
-![Schematics](Schematics.JPG)
+![Schematics](Schematics.png)
 
 ------------------------------------------------------------------------
 
