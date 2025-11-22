@@ -78,7 +78,6 @@ void loop() {
 
 ### 📘 Wiring Diagram
 
-*(Insert schematic or simulation)*\
 ![Schematics](Schematics.png)
 
 ------------------------------------------------------------------------
