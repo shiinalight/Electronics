@@ -106,16 +106,11 @@ void loop() {
 ## 🖼️ Circuit Overview
 
 ### 🔧 Breadboard Setup
-
-*(Insert your photo here)*\
-Example:\
-`IMG_7503.jpg`
+![Circuit](IMG_7502.JPG)
+![Circuit](IMG_7503.JPEG)
 
 ### 📘 Schematic Diagram
-
-*(Insert Fritzing diagram here)*\
-Example:\
-`button_push_color_change_.jpg`
+![Schematics](button_push_color_change_.jpg)
 
 ------------------------------------------------------------------------
 
