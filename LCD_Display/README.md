@@ -9,15 +9,16 @@ potentiometer, and print text to the screen.
 
 ## ⚙️ Components Used
 
-  Component                       Quantity   Description
-  ------------------------------- ---------- ----------------------------
-  Arduino UNO / Elegoo UNO R3     1          Main microcontroller board
-  16x2 LCD (HD44780 compatible)   1          Parallel character LCD
-  10 kΩ Potentiometer             1          Controls LCD contrast
-  330 Ω Resistor                  1          Backlight current‑limiting
-  Breadboard                      1          For prototyping
-  Jumper Wires                    Several    Connections
-  USB Cable                       1          Power & programming
+| Component                     | Quantity | Description                    |
+|------------------------------|----------|--------------------------------|
+| Arduino UNO / Elegoo UNO R3 | 1        | Main microcontroller board     |
+| 16x2 LCD (HD44780)           | 1        | Parallel character LCD         |
+| 10 kΩ Potentiometer          | 1        | LCD contrast adjustment        |
+| 220–330 Ω Resistor           | 1        | LCD backlight resistor         |
+| Breadboard                   | 1        | For prototyping                |
+| Jumper Wires                 | Several  | Signal connections             |
+| USB Cable                    | 1        | Power & programming            |
+
 
 ------------------------------------------------------------------------
 
@@ -25,20 +26,20 @@ potentiometer, and print text to the screen.
 
 ### LCD Pin Mapping
 
-  LCD Pin   Function          Arduino Pin
-  --------- ----------------- --------------------------
-  **VSS**   Ground            GND
-  **VDD**   +5V               5V
-  **VO**    Contrast          Potentiometer middle pin
-  **RS**    Register Select   D12
-  **RW**    Read/Write        GND
-  **E**     Enable            D11
-  **D4**    Data 4            D5
-  **D5**    Data 5            D4
-  **D6**    Data 6            D3
-  **D7**    Data 7            D2
-  **A**     Backlight +       5V via 220Ω resistor
-  **K**     Backlight --      GND
+| LCD Pin | Function        | Arduino Pin                 |
+|---------|------------------|-----------------------------|
+| VSS     | Ground          | GND                         |
+| VDD     | +5V             | 5V                          |
+| VO      | Contrast        | Pot middle pin (wiper)      |
+| RS      | Register Select | D12                         |
+| RW      | Read/Write      | GND                         |
+| E       | Enable          | D11                         |
+| D4      | Data 4          | D5                          |
+| D5      | Data 5          | D4                          |
+| D6      | Data 6          | D3                          |
+| D7      | Data 7          | D2                          |
+| A       | Backlight +     | 5V via 220Ω resistor        |
+| K       | Backlight –     | GND                         |
 
 ### Potentiometer Wiring
 
@@ -48,7 +49,7 @@ potentiometer, and print text to the screen.
 
 ------------------------------------------------------------------------
 
-## 🧠 Code (`Display_LCD.ino`)
+## Code (`Display_LCD.ino`)
 
 ``` cpp
 #include <LiquidCrystal.h>
@@ -70,7 +71,7 @@ void loop() {
 
 ------------------------------------------------------------------------
 
-## 🖼️ Circuit Overview
+## Circuit Overview
 
 ### 🔧 Breadboard Setup
 
