@@ -74,13 +74,12 @@ void loop() {
 
 ### 🔧 Breadboard Setup
 
-*(Insert your real photo here)*\
-`IMG_7512.heic`
+![Circuit](Circuit.JPG)
 
 ### 📘 Wiring Diagram
 
 *(Insert schematic or simulation)*\
-`Screenshot 2025-11-22 at 16.05.27.png`
+![Schematics](Schematics.JPG)
 
 ------------------------------------------------------------------------
 
