@@ -48,7 +48,7 @@ readings when not pressed.
 
 ------------------------------------------------------------------------
 
-## 🧠 Code
+## Code
 
 ``` cpp
 const int redPin = 9;
