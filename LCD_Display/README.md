@@ -14,7 +14,7 @@ potentiometer, and print text to the screen.
   Arduino UNO / Elegoo UNO R3     1          Main microcontroller board
   16x2 LCD (HD44780 compatible)   1          Parallel character LCD
   10 kΩ Potentiometer             1          Controls LCD contrast
-  220 Ω Resistor                  1          Backlight current‑limiting
+  330 Ω Resistor                  1          Backlight current‑limiting
   Breadboard                      1          For prototyping
   Jumper Wires                    Several    Connections
   USB Cable                       1          Power & programming
