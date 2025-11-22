@@ -13,7 +13,7 @@ and **state-based programming**.
   ------------------------------ ---------- ------------------------------------
   Arduino UNO / Elegoo UNO R3    1          Main microcontroller board
   RGB LED (common cathode)       1          4‑pin RGB LED
-  220--330 Ω Resistors           3          One for each LED channel (R, G, B)
+  220 Ω Resistors           3          One for each LED channel (R, G, B)
   Push Button                    1          Momentary tactile button
   10 kΩ Resistor                 1          Pull‑down resistor for button
   Breadboard                     1          For prototyping
