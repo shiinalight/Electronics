@@ -12,7 +12,7 @@ The project runs on an **Elegoo / Arduino UNO** and is perfect as a first contac
 
 ![Setup – hand farther away](IMG_7544.JPG)
 ![Setup – hand closer](IMG_7543.JPG)
-![Fritzing wiring diagram](sensor-distance-measurement.jpeg)
+![Fritzing wiring diagram](schematics.jpeg)
 
 ---
 
@@ -79,7 +79,6 @@ Your Fritzing diagram shows exactly this wiring.
 
 The Arduino measures this time (in microseconds) and converts it to centimeters:
 
-```text
 distance_cm = duration_microseconds / 58.0
 
 ## Code Used
@@ -150,3 +149,38 @@ void loop() {
 
 
 ```
+## 🧪 How to Use
+
+1. Upload the Arduino code to your board.  
+2. Power the Arduino via USB.  
+3. Hold your hand above the ultrasonic sensor.  
+4. The LCD will continuously update and display the measured distance.
+
+---
+
+## 📚 Theory Behind the HC-SR04
+
+Inside the HC-SR04 module:
+
+- One transducer **transmits** ultrasonic pulses (40 kHz).  
+- The other **receives** the tiny returning echoes.  
+- Internal analog circuitry (op-amps, filters, comparators) **amplifies, filters, and detects** the echo.  
+- The module outputs a clean **digital HIGH pulse** on the Echo pin, where the pulse length equals the distance.  
+
+No external op-amp is needed — all amplification and detection are built inside the sensor.
+
+---
+
+## 🛠 Troubleshooting
+
+- **LCD blank** → adjust the contrast potentiometer.  
+- **Distance stays 0 or gives random values:**  
+  - Ensure Echo is connected to a **digital input pin**, not analog.  
+  - Ensure the object is directly in front of the sensor (avoid steep angles).  
+- **Always reads 0 cm** → object is too close; minimum measurable distance is about **2 cm**.
+
+---
+
+## 📄 License
+
+MIT License — free to use, modify, and share.
