@@ -4,7 +4,7 @@ A radar-style visualization project built using Arduino, HC-SR04 ultrasonic sens
 
 ## Demo
 
-![Radar Demo](images/demo.png)
+![Radar Demo](demo.png)
 
 ## Features
 
