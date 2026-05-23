@@ -2,6 +2,10 @@
 
 A radar-style visualization project built using Arduino, HC-SR04 ultrasonic sensor, servo motor, and Processing IDE.
 
+## Demo
+
+![Radar Demo](images/demo.png)
+
 ## Features
 
 - Real-time radar sweep visualization
