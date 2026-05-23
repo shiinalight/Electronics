@@ -9,7 +9,11 @@ A radar-style visualization project built using Arduino, HC-SR04 ultrasonic sens
 
 
 <video width="500" controls>
-  <source src="https://github.com/user-attachments/assets/5b51c5e1-2fec-4281-a15e-e5fa49713051" type="video/mp4">
+  <source src="
+
+https://github.com/user-attachments/assets/9cff4255-379f-4685-9baf-bff4bd61cdeb
+
+" type="video/mp4">
 </video>
 
 
