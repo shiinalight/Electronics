@@ -1,4 +1,4 @@
-# IR Remote LED Control with Arduino
+# IR Remote Control with Arduino
 
 A simple Arduino project for controlling 4 LEDs using an IR remote controller and an IR receiver module.
 
