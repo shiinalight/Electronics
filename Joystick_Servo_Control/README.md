@@ -4,6 +4,10 @@ A simple Arduino project for controlling a servo motor using a joystick module.
 
 The joystick X-axis controls the servo angle in real time, while the joystick button resets the servo position to the center.
 
+## Demo
+
+![Demo GIF](demo.gif)
+
 ## Features
 
 - Real-time joystick control
@@ -51,12 +55,6 @@ The joystick X-axis controls the servo angle in real time, while the joystick bu
 1. Install the Arduino IDE
 2. Install the Servo library (usually preinstalled)
 3. Upload the code to the Arduino UNO
-
-## Demo
-
-### Project Image
-
-![Demo GIF](JoystickServo_demo.gif)
 
 ## Future Improvements
 
