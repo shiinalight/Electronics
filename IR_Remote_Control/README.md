@@ -53,19 +53,15 @@ A simple Arduino project for controlling 4 LEDs using an IR remote controller an
 
 ### Project Image
 
-Add your image here:
-
-```md
 ![Project Image](IR_Remote_Control.png)
-```
 
 ### Demo GIF
 
 Add your GIF here:
 
-```md
+
 ![Demo GIF](IRremote_demo.gif)
-```
+
 
 ## Folder Structure
 
