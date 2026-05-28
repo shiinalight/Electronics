@@ -95,19 +95,10 @@ XMC1100-0064
 
 ## Sensor Output Demonstration
 
-Add your images inside:
 
-```text
-assets/
-```
-
-Example:
-
-```md
 ![Sensor](sensor.png)
 
 ![Output](output.png)
-```
 
 ---
 
