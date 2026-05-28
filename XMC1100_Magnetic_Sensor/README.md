@@ -95,10 +95,13 @@ XMC1100-0064
 
 ## Sensor Output Demonstration
 
+<p align="center">
+  <img src="sensor.png" width="350">
+</p>
 
-![Sensor](sensor.png)
-
-![Output](output.png)
+<p align="center">
+  <img src="output.png" width="700">
+</p>
 
 ---
 
